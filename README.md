@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+# Word Blast
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Type any word and watch it rendered live across 8 different animated UI treatments - bouncing letters, a marquee, flip cards, a typewriter effect, a floating cloud, a grid mosaic, a gradient pulse, and an orbiting ring.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A small, playful frontend experiment: one word, eight different animated ways to display it, switchable on the fly. Built to explore React animation techniques (Motion) rather than to ship a product.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Type any word and see it re-rendered instantly across all eight scenes. Click-to-pop burst effects, draggable letters, keyboard shortcuts (arrow keys, space), an autoplay progress bar, cursor glow, ambient background blobs, and a surprise-me random word button.
 
-## Expanding the Oxlint configuration
+## Tech stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+React, TypeScript, Vite, Motion (animation library).
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Getting started
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Clone the repo, run npm install, then run npm run dev.
+
+## Author
+
+Arshpreet Singh Bhasin - GitHub: https://github.com/arshpreetbhasin1-collab
